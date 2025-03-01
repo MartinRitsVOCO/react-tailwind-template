@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import DesktopPage from './components/desktop/DesktopPage';
 import MobilePage from './components/mobile/MobilePage';
-import AppProvider from './components/context/AppProvider';
+import AppProvider from './context/AppProvider';
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(null);
